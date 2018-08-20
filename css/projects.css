@@ -1,0 +1,103 @@
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
+
+nav {
+    color: white;
+    margin: 5px;
+    height: 80px;
+}
+
+.nav {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav:hover {
+    color: #92deb7;
+}
+
+header {
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.65;
+}
+
+body { 
+    background-image: url('images/headerimage.jpeg');
+    margin: 0px;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    
+    position: relative;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+
+html{height:100%,width:100%}
+
+.projects {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.projects a {
+    margin: 0px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.projects a:hover {
+    color: #92deb7;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+    img {
+        width: 59px;
+        height: 59px;
+    }
+    
+    .projects a {
+        margin-bottom: 15px;
+    }
+}
+
+.backbutton {
+    color: #fff;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.backbutton:hover {
+    background-color: #92deb7;
+    border: none;
+}

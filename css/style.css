@@ -1,0 +1,133 @@
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
+
+nav {
+    color: white;
+    margin: 5px;
+    height: 80px;
+}
+
+.nav {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav:hover {
+    color: #92deb7;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.65;
+    margin: 0px;
+}
+
+h2 {
+    text-align: center;
+    color: lightgray;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.65;
+    padding: 0px;
+    margin-top: -10px;
+}
+
+body { 
+    background-image: url('images/headerimage.jpeg');
+    margin: 0px;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    
+    position: relative;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+
+html{height:100%,width:100%}
+
+/* Style all font awesome icons */
+.fa {
+    color: #fff;
+    font-size: 80px;
+    width: 17px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 5px;
+    margin-top: 45px;
+}
+
+/* Add a hover effect */
+.fa:hover {
+    background-color: #92deb7;
+    border: none;
+}
+
+.fa-twitter {
+    background: transparent;
+    color: white;
+}
+
+.fa-youtube {
+    background: transparent;
+    color: white;
+}
+
+.fa-github {
+    background: transparent;
+    color: white;
+}
+
+.fa-envelope {
+    background: transparent;
+    color: white;
+}
+
+.projectsbutton {
+    color: #fff;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px 20px;
+    min-width: 5.0em;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 70px;
+    font-weight: 300;
+}
+
+.projectsbutton:hover {
+    background-color: #92deb7;
+    border: none;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
